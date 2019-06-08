@@ -1,0 +1,694 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  display: grid;
+  grid: auto-flow/repeat(7, 100px);
+  gap: 1px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.calendar div {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid black;
+}
+.calendar div:hover {
+  background-color: pink;
+  transform: translateY(-20px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.calendar-28 div:nth-child(1) {
+  display: block;
+}
+.calendar-28 div:nth-child(2) {
+  display: block;
+}
+.calendar-28 div:nth-child(3) {
+  display: block;
+}
+.calendar-28 div:nth-child(4) {
+  display: block;
+}
+.calendar-28 div:nth-child(5) {
+  display: block;
+}
+.calendar-28 div:nth-child(6) {
+  display: block;
+}
+.calendar-28 div:nth-child(7) {
+  display: block;
+}
+.calendar-28 div:nth-child(8) {
+  display: block;
+}
+.calendar-28 div:nth-child(9) {
+  display: block;
+}
+.calendar-28 div:nth-child(10) {
+  display: block;
+}
+.calendar-28 div:nth-child(11) {
+  display: block;
+}
+.calendar-28 div:nth-child(12) {
+  display: block;
+}
+.calendar-28 div:nth-child(13) {
+  display: block;
+}
+.calendar-28 div:nth-child(14) {
+  display: block;
+}
+.calendar-28 div:nth-child(15) {
+  display: block;
+}
+.calendar-28 div:nth-child(16) {
+  display: block;
+}
+.calendar-28 div:nth-child(17) {
+  display: block;
+}
+.calendar-28 div:nth-child(18) {
+  display: block;
+}
+.calendar-28 div:nth-child(19) {
+  display: block;
+}
+.calendar-28 div:nth-child(20) {
+  display: block;
+}
+.calendar-28 div:nth-child(21) {
+  display: block;
+}
+.calendar-28 div:nth-child(22) {
+  display: block;
+}
+.calendar-28 div:nth-child(23) {
+  display: block;
+}
+.calendar-28 div:nth-child(24) {
+  display: block;
+}
+.calendar-28 div:nth-child(25) {
+  display: block;
+}
+.calendar-28 div:nth-child(26) {
+  display: block;
+}
+.calendar-28 div:nth-child(27) {
+  display: block;
+}
+.calendar-28 div:nth-child(28) {
+  display: block;
+}
+
+.calendar-29 div:nth-child(1) {
+  display: block;
+}
+.calendar-29 div:nth-child(2) {
+  display: block;
+}
+.calendar-29 div:nth-child(3) {
+  display: block;
+}
+.calendar-29 div:nth-child(4) {
+  display: block;
+}
+.calendar-29 div:nth-child(5) {
+  display: block;
+}
+.calendar-29 div:nth-child(6) {
+  display: block;
+}
+.calendar-29 div:nth-child(7) {
+  display: block;
+}
+.calendar-29 div:nth-child(8) {
+  display: block;
+}
+.calendar-29 div:nth-child(9) {
+  display: block;
+}
+.calendar-29 div:nth-child(10) {
+  display: block;
+}
+.calendar-29 div:nth-child(11) {
+  display: block;
+}
+.calendar-29 div:nth-child(12) {
+  display: block;
+}
+.calendar-29 div:nth-child(13) {
+  display: block;
+}
+.calendar-29 div:nth-child(14) {
+  display: block;
+}
+.calendar-29 div:nth-child(15) {
+  display: block;
+}
+.calendar-29 div:nth-child(16) {
+  display: block;
+}
+.calendar-29 div:nth-child(17) {
+  display: block;
+}
+.calendar-29 div:nth-child(18) {
+  display: block;
+}
+.calendar-29 div:nth-child(19) {
+  display: block;
+}
+.calendar-29 div:nth-child(20) {
+  display: block;
+}
+.calendar-29 div:nth-child(21) {
+  display: block;
+}
+.calendar-29 div:nth-child(22) {
+  display: block;
+}
+.calendar-29 div:nth-child(23) {
+  display: block;
+}
+.calendar-29 div:nth-child(24) {
+  display: block;
+}
+.calendar-29 div:nth-child(25) {
+  display: block;
+}
+.calendar-29 div:nth-child(26) {
+  display: block;
+}
+.calendar-29 div:nth-child(27) {
+  display: block;
+}
+.calendar-29 div:nth-child(28) {
+  display: block;
+}
+.calendar-29 div:nth-child(29) {
+  display: block;
+}
+
+.calendar-30 div:nth-child(1) {
+  display: block;
+}
+.calendar-30 div:nth-child(2) {
+  display: block;
+}
+.calendar-30 div:nth-child(3) {
+  display: block;
+}
+.calendar-30 div:nth-child(4) {
+  display: block;
+}
+.calendar-30 div:nth-child(5) {
+  display: block;
+}
+.calendar-30 div:nth-child(6) {
+  display: block;
+}
+.calendar-30 div:nth-child(7) {
+  display: block;
+}
+.calendar-30 div:nth-child(8) {
+  display: block;
+}
+.calendar-30 div:nth-child(9) {
+  display: block;
+}
+.calendar-30 div:nth-child(10) {
+  display: block;
+}
+.calendar-30 div:nth-child(11) {
+  display: block;
+}
+.calendar-30 div:nth-child(12) {
+  display: block;
+}
+.calendar-30 div:nth-child(13) {
+  display: block;
+}
+.calendar-30 div:nth-child(14) {
+  display: block;
+}
+.calendar-30 div:nth-child(15) {
+  display: block;
+}
+.calendar-30 div:nth-child(16) {
+  display: block;
+}
+.calendar-30 div:nth-child(17) {
+  display: block;
+}
+.calendar-30 div:nth-child(18) {
+  display: block;
+}
+.calendar-30 div:nth-child(19) {
+  display: block;
+}
+.calendar-30 div:nth-child(20) {
+  display: block;
+}
+.calendar-30 div:nth-child(21) {
+  display: block;
+}
+.calendar-30 div:nth-child(22) {
+  display: block;
+}
+.calendar-30 div:nth-child(23) {
+  display: block;
+}
+.calendar-30 div:nth-child(24) {
+  display: block;
+}
+.calendar-30 div:nth-child(25) {
+  display: block;
+}
+.calendar-30 div:nth-child(26) {
+  display: block;
+}
+.calendar-30 div:nth-child(27) {
+  display: block;
+}
+.calendar-30 div:nth-child(28) {
+  display: block;
+}
+.calendar-30 div:nth-child(29) {
+  display: block;
+}
+.calendar-30 div:nth-child(30) {
+  display: block;
+}
+
+.calendar-31 div:nth-child(1) {
+  display: block;
+}
+.calendar-31 div:nth-child(2) {
+  display: block;
+}
+.calendar-31 div:nth-child(3) {
+  display: block;
+}
+.calendar-31 div:nth-child(4) {
+  display: block;
+}
+.calendar-31 div:nth-child(5) {
+  display: block;
+}
+.calendar-31 div:nth-child(6) {
+  display: block;
+}
+.calendar-31 div:nth-child(7) {
+  display: block;
+}
+.calendar-31 div:nth-child(8) {
+  display: block;
+}
+.calendar-31 div:nth-child(9) {
+  display: block;
+}
+.calendar-31 div:nth-child(10) {
+  display: block;
+}
+.calendar-31 div:nth-child(11) {
+  display: block;
+}
+.calendar-31 div:nth-child(12) {
+  display: block;
+}
+.calendar-31 div:nth-child(13) {
+  display: block;
+}
+.calendar-31 div:nth-child(14) {
+  display: block;
+}
+.calendar-31 div:nth-child(15) {
+  display: block;
+}
+.calendar-31 div:nth-child(16) {
+  display: block;
+}
+.calendar-31 div:nth-child(17) {
+  display: block;
+}
+.calendar-31 div:nth-child(18) {
+  display: block;
+}
+.calendar-31 div:nth-child(19) {
+  display: block;
+}
+.calendar-31 div:nth-child(20) {
+  display: block;
+}
+.calendar-31 div:nth-child(21) {
+  display: block;
+}
+.calendar-31 div:nth-child(22) {
+  display: block;
+}
+.calendar-31 div:nth-child(23) {
+  display: block;
+}
+.calendar-31 div:nth-child(24) {
+  display: block;
+}
+.calendar-31 div:nth-child(25) {
+  display: block;
+}
+.calendar-31 div:nth-child(26) {
+  display: block;
+}
+.calendar-31 div:nth-child(27) {
+  display: block;
+}
+.calendar-31 div:nth-child(28) {
+  display: block;
+}
+.calendar-31 div:nth-child(29) {
+  display: block;
+}
+.calendar-31 div:nth-child(30) {
+  display: block;
+}
+.calendar-31 div:nth-child(31) {
+  display: block;
+}
+
+.calendar-mon div:nth-child(1) {
+  grid-column: 1;
+}
+
+.calendar-tue div:nth-child(1) {
+  grid-column: 2;
+}
+
+.calendar-wed div:nth-child(1) {
+  grid-column: 3;
+}
+
+.calendar-thu div:nth-child(1) {
+  grid-column: 4;
+}
+
+.calendar-fri div:nth-child(1) {
+  grid-column: 5;
+}
+
+.calendar-sat div:nth-child(1) {
+  grid-column: 6;
+}
+
+.calendar-sun div:nth-child(1) {
+  grid-column: 7;
+}
+
+.calendar div:nth-child(1)::after {
+  content: "1";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(2)::after {
+  content: "2";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(3)::after {
+  content: "3";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(4)::after {
+  content: "4";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(5)::after {
+  content: "5";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(6)::after {
+  content: "6";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(7)::after {
+  content: "7";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(8)::after {
+  content: "8";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(9)::after {
+  content: "9";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(10)::after {
+  content: "10";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(11)::after {
+  content: "11";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(12)::after {
+  content: "12";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(13)::after {
+  content: "13";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(14)::after {
+  content: "14";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(15)::after {
+  content: "15";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(16)::after {
+  content: "16";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(17)::after {
+  content: "17";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(18)::after {
+  content: "18";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(19)::after {
+  content: "19";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(20)::after {
+  content: "20";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(21)::after {
+  content: "21";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(22)::after {
+  content: "22";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(23)::after {
+  content: "23";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(24)::after {
+  content: "24";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(25)::after {
+  content: "25";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(26)::after {
+  content: "26";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(27)::after {
+  content: "27";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(28)::after {
+  content: "28";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(29)::after {
+  content: "29";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(30)::after {
+  content: "30";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.calendar div:nth-child(31)::after {
+  content: "31";
+  display: block;
+  font: 30px Arial;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

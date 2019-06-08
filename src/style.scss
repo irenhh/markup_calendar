@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  display: grid;
+  grid: auto-flow / repeat(7, 100px);
+  gap: 1px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.calendar div {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid black;
+  
+  &:hover {
+    background-color: pink;
+    transform: translateY(-20px);
+    transition: all .5s;
+    cursor: pointer;
+  }
+}
+
+$days-in-month: 28, 29, 30, 31;
+$first-day: (mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6, sun: 7);
+
+@each $number in $days-in-month {
+  .calendar-#{$number} {
+    @for $i from 1 through $number {
+      div:nth-child(#{$i}) {
+        display: block;
+      }
+    }
+  }
+}
+
+@each $day, $i in $first-day {
+  .calendar-#{$day} {
+    div:nth-child(1) {
+      grid-column: #{$i};
+    }
+  }
+}
+
+@for $i from 1 through 31 { 
+  .calendar div {
+    &:nth-child(#{$i}) {
+      &::after {
+        content: "#{$i}";
+        display: block;
+        font: 30px Arial;
+        line-height: 100px;
+        width: 100px;
+        text-align: center;
+      }
+    }
+  }
+}
