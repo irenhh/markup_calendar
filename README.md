@@ -1,4 +1,4 @@
-- [DEMO LINK](https://irenhh.github.io/markup-calendar/)
+- [DEMO LINK](https://irenhh.github.io/markup_calendar/src/index.html)
 
 # Calendar
 
